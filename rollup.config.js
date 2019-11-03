@@ -1,4 +1,5 @@
 import babel from 'rollup-plugin-babel';
+import postcss from 'rollup-plugin-postcss';
 import { terser } from 'rollup-plugin-terser';
 import commonjs from 'rollup-plugin-commonjs';
 import reactSvg from 'rollup-plugin-react-svg';
@@ -34,6 +35,7 @@ export default {
       exclude: 'node_modules/**',
       plugins: [['@babel/transform-runtime', { useESModules: true }]],
     }),
+    postcss(),
     reactSvg(),
     commonjs(),
     typescript(),

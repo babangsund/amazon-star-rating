@@ -6,6 +6,26 @@
   "name": "amazon-star-rating",
   "module": "dist/index.esm.js",
   "description": "Amazon star rating",
+  "homepage": "https://github.com/babangsund/amazon-star-rating#readme",
+  "bugs": {
+    "url": "https://github.com/babangsund/amazon-star-rating/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/babangsund/amazon-star-rating.git"
+  },
+  "keywords": [
+    "css",
+    "react",
+    "stars",
+    "amazon",
+    "rollup",
+    "eslint",
+    "rating",
+    "prettier",
+    "typescript",
+    "star-rating"
+  ],
   "scripts": {
     "build": "NODE_ENV=production rollup -c",
     "watch": "NODE_ENV=development rollup -c -w"

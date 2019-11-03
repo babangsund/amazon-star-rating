@@ -5,5 +5,8 @@
   "main": "dist/index.js",
   "name": "amazon-star-rating",
   "module": "dist/index.esm.js",
-  "description": "Amazon star rating"
+  "description": "Amazon star rating",
+  "devDependencies": {
+    "prettier": "^1.18.2"
+  }
 }

@@ -1,6 +1,7 @@
 import babel from 'rollup-plugin-babel';
 import { terser } from 'rollup-plugin-terser';
 import commonjs from 'rollup-plugin-commonjs';
+import reactSvg from 'rollup-plugin-react-svg';
 import typescript from 'rollup-plugin-typescript';
 import nodeResolve from 'rollup-plugin-node-resolve';
 
@@ -33,6 +34,7 @@ export default {
       exclude: 'node_modules/**',
       plugins: [['@babel/transform-runtime', { useESModules: true }]],
     }),
+    reactSvg(),
     commonjs(),
     typescript(),
     nodeResolve(),

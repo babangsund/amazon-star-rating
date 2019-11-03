@@ -33,7 +33,7 @@ export default {
     babel({
       runtimeHelpers: true,
       exclude: 'node_modules/**',
-      plugins: [['@babel/transform-runtime', { useESModules: true }]],
+      plugins: [['@babel/plugin-transform-runtime', { useESModules: true }]],
     }),
     postcss(),
     reactSvg(),

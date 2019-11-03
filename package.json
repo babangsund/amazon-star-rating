@@ -7,6 +7,16 @@
   "module": "dist/index.esm.js",
   "description": "Amazon star rating",
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "@types/react": "^16.9.11",
+    "@types/react-dom": "^16.9.3",
+    "@typescript-eslint/eslint-plugin": "^2.6.0",
+    "@typescript-eslint/parser": "^2.6.0",
+    "eslint": "^6.6.0",
+    "eslint-config-prettier": "^6.5.0",
+    "eslint-plugin-react": "^7.16.0",
+    "eslint-plugin-react-hooks": "^2.2.0",
+    "prettier": "^1.18.2",
+    "tslib": "^1.10.0",
+    "typescript": "^3.6.4"
   }
 }

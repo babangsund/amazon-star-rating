@@ -1,11 +1,11 @@
 {
   "license": "MIT",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "author": "babangsund",
   "main": "dist/index.js",
   "name": "amazon-star-rating",
   "module": "dist/index.esm.js",
-  "description": "Amazon star rating",
+  "description": "Amazon star rating component for React",
   "homepage": "https://github.com/babangsund/amazon-star-rating#readme",
   "bugs": {
     "url": "https://github.com/babangsund/amazon-star-rating/issues"

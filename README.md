@@ -9,6 +9,27 @@ Amazon star rating component.
   <img src="./demo.gif" width="100%" title="Demo">
 </p>
 
+
+---
+### Installation
+
+Using [npm](https://www.npmjs.com/):
+
+    $ npm install amazon-star-rating
+
+Using [yarn](https://yarnpkg.com/):
+
+    $ yarn add amazon-star-rating
+
+Then with a module bundler like [webpack](https://webpack.github.io/), use as you would anything else:
+
+```js
+// Using ES6 Modules
+import {StarRating} from 'amazon-star-rating';
+// using CommonJS modules
+const StarRating = require('amazon-star-rating').StarRating;
+```
+
 ---
 ### Running it
 
@@ -25,13 +46,11 @@ Using [npm](https://www.npmjs.com/)/[yarn](https://yarnpkg.com/):
 ---
 ### Details
 
-#### Dependencies
+#### Notable DevDependencies
 
-Additional dependencies have been installed:
-
-1. [**`Prettier`**](https://prettier.io/): Code formatting.
-2. [**`Typescript`**](https://github.com/microsoft/typeScript): Static type checker, etc.
-3. [**`Rollup`**](https://github.com/rollup/rollup): ES module bundler.
+- [**`Prettier`**](https://prettier.io/): Code formatting.
+- [**`Typescript`**](https://github.com/microsoft/typeScript): Static type checker, etc.
+- [**`Rollup`**](https://github.com/rollup/rollup): ES module bundler.
 
 #### src/
 

@@ -17,7 +17,7 @@ const StarRating: React.FC<Props> = ({ stars, maxStars, onChange }: Props) => {
       .map((_, i) => i + 1);
   }, [maxStars]);
 
-  const renderStars: React.ReactNodeArray = React.useMemo(() => {
+  const renderStars = React.useMemo(() => {
     return starArray.map(n => (
       <Star key={n} filled={n <= stars} onClick={(): void => onChange(n)} />
     ));
